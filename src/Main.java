@@ -23,7 +23,7 @@ public class Main{
             M=Integer.parseInt(scanner.nextLine());
         }
 
-        /** Creating an array to store the information*/
+        /** Creating an array to store the element numbers*/
         int[][] arr=new int[N][M];
         /** calculating the max number of elements for given dimensions*/
         int max=(N*M)/2;
