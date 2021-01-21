@@ -10,15 +10,17 @@ public class Main{
         /**user input for dimension N*/
         int  N=Integer.parseInt(scanner.nextLine());
         /** Checking if N is withing specs*/
-        while(N<=1&&N>100&&N%2==0){
+        while(N<=1||N>99||N%2!=0){
             System.out.println("-1 N shoud be an even non-negative number below 100!");
+            N=Integer.parseInt(scanner.nextLine());
         }
 
         /**user input for dimension M*/
         int  M=Integer.parseInt(scanner.nextLine());
         /** Checking if M is withing specs*/
-        while(N<=1&&N>100&&N%2==0){
+        while(M<=1||M>99||M%2!=0){
             System.out.println("-1 M shoud be an even non-negative number below 100!");
+            M=Integer.parseInt(scanner.nextLine());
         }
 
         /** Creating an array to store the information*/
